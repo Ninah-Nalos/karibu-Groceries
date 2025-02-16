@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounts page</title>
+</head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            margin-top: 10px;
+            
+        }
+
+        body {
+            background: deeppink ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            background-color: transparent;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            background: #f2f2f2;
+        }
+
+        p{
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+            text-align: center;
+
+        }
+
+        input {
+            width: 100%;
+            height: 40px;
+            margin-top: 10px;
+            padding: 10px;
+            outline: none;
+            border: none;
+            background-color: #d3bfbf;
+            border-radius: 5px;
+        }
+        button {
+            border: none;
+            width: 100%;
+            padding: 0.75rem;
+            background-color: deeppink;
+            color: #f2f2f2;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            justify-content: center;
+            justify-items: center;
+
+        }
+
+        button:hover {
+            background-color: crimson;
+        }
+
+        span {
+            color: black;
+            cursor: pointer;
+            margin-left: 10px;
+            display: inline;
+        }
+
+        a {
+            color: deeppink;
+            text-decoration: none;
+        }
+
+    </style>
+<body>
+   <div class="container">
+    <p>My Account</p>
+    <input type="text" placeholder="First name">
+    <input type="text" placeholder="Lastname">
+    <input type="text" placeholder="Email">
+    <input type="password" placeholder="Old Password">
+    <input type="password" placeholder="New Password">
+    <input type="password" placeholder="Confirm Password"> <br>
+    <button type="submit"> Update Account</button><br><br>
+
+    <span> Already have an account? <a href="/index.html">Login</a></span>
+   </div>
+
+    
+</body>
+</html>
